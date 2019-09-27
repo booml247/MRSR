@@ -1,21 +1,18 @@
-1.ÔËÐÐ´úÂë£º
-´ò¿ªdemo_fatureselection
-·Ö±ð½«ÆäÖÐµÄmethod¸ÄÎª¡°RSR¡±£¬¡°RUFS¡±£¬¡°DPFS¡±£¬¡°AUFS¡±£¬¡°UDFS¡±£¬·Ö±ðµã»÷ÔËÐÐ¼´¿É¡£
+1.è¿è¡Œä»£ç ï¼š
+æ‰“å¼€demo_fatureselection
+åˆ†åˆ«å°†å…¶ä¸­çš„methodæ”¹ä¸ºâ€œMRSRâ€ï¼Œâ€œRUFSâ€ï¼Œâ€œDPFSâ€ï¼Œâ€œAUFSâ€ï¼Œâ€œUDFSâ€ï¼Œåˆ†åˆ«ç‚¹å‡»è¿è¡Œå³å¯ã€‚(æ­¤å¤„ç”±äºŽæ¶‰åŠç‰ˆæƒé—®é¢˜ï¼Œåªæä¾›MRSRçš„ä»£ç )ã€‚
 
-2.´úÂëËµÃ÷£º
+2.ä»£ç è¯´æ˜Žï¼š
 
-£¨1£©demo_featureselection.m
-Õâ¸ö¹ØÓÚÎÞ¼à¶½Ñ¡ÔñµÄ´úÂëÎªÒ»¸ö×Ô¶¯»¯µÄ¿ò¼Ü£¬ÀïÃæ°üº¬ÁË¶à¸ö·½·¨µÄ´úÂë¡£
-ÆäÖÐdemo_featureselectionÎªscriptÎÄ¼þ£¬ÀïÃæ¶ÔÓÚdataset,feature number,method,lamdaµÈ²ÎÊý½øÐÐÁËÉèÖÃ£¬¿ÉÒÔ¸ù¾Ý×Ô¼ºµÄÐèÒª½øÐÐÐÞ¸Ä¡£¾ßÌå¿ÉÒÔ²Î¼û¸Ã´úÂëÖÐÎÒ¸ø³öµÄ×¢ÊÍ¡£
+ï¼ˆ1ï¼‰demo_featureselection.m
+è¿™ä¸ªå…³äºŽæ— ç›‘ç£é€‰æ‹©çš„ä»£ç ä¸ºä¸€ä¸ªè‡ªåŠ¨åŒ–çš„æ¡†æž¶ï¼Œé‡Œé¢åŒ…å«äº†å¤šä¸ªæ–¹æ³•çš„ä»£ç ã€‚
+å…¶ä¸­demo_featureselectionä¸ºscriptæ–‡ä»¶ï¼Œé‡Œé¢å¯¹äºŽdataset,feature number,method,lamdaç­‰å‚æ•°è¿›è¡Œäº†è®¾ç½®ï¼Œå¯ä»¥æ ¹æ®è‡ªå·±çš„éœ€è¦è¿›è¡Œä¿®æ”¹ã€‚
 
-£¨2£©evalute.m
-methodÎªÄãÒªÑ¡ÔñµÄÎÞ¼à¶½ÌØÕ÷Ñ¡ÔñµÄ·½·¨£¬¾ßÌå¿ÉÒÔ²Î¼ûevalute.mº¯Êý¡£
-evalute.mÖÐÊ¹ÓÃswitch caseµÄ·½·¨¸ø³öÁË¸÷ÖÖ·½·¨ÏÂµÄ²ÎÊýÉèÖÃ¡£
+ï¼ˆ2ï¼‰evalute.m
+methodä¸ºä½ è¦é€‰æ‹©çš„æ— ç›‘ç£ç‰¹å¾é€‰æ‹©çš„æ–¹æ³•ï¼Œå…·ä½“å¯ä»¥å‚è§evalute.må‡½æ•°ã€‚
+evalute.mä¸­ä½¿ç”¨switch caseçš„æ–¹æ³•ç»™å‡ºäº†å„ç§æ–¹æ³•ä¸‹çš„å‚æ•°è®¾ç½®ã€‚
 
-£¨3£©evalute_num.m
-evalute_num.mº¯ÊýÖ÷ÒªÊµÏÖÌØÕ÷Ñ¡Ôñ½á¹ûµÄÆÀ¼Û£¬ÆÀ¼Û±ê×¼·Ö±ðÎªclassification£¬NMI£¬rebunduncy£¬clustering¡£
+ï¼ˆ3ï¼‰evalute_num.m
+evalute_num.må‡½æ•°ä¸»è¦å®žçŽ°ç‰¹å¾é€‰æ‹©ç»“æžœçš„è¯„ä»·ï¼Œè¯„ä»·æ ‡å‡†åˆ†åˆ«ä¸ºclassificationï¼ŒNMIï¼Œrebunduncyï¼Œclusteringã€‚
 
-£¨4£©ÆäËû´úÂë
-usefulcodeÎÄ¼þ¼ÐÖÐÊÇÒ»Ð©³£ÓÃµÄ¼ÆËã²Ù×÷ËùÐèÒªÓÃµ½µÄ´úÂë
-ÆäËûÎÄ¼þ¼ÐÖÐÊÇÒ»Ð©ÆäËûmethodÓÃµ½µÄ´úÂë
 
